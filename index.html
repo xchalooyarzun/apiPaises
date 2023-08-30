@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Buscador de Paises</title>
+</head>
+
+<body>
+  <h1>Ingrese el Pais</h1>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Buscar por nombre">
+    <button id="searchButton">Buscar</button>
+  </div>
+  <div id="results">
+    <h2>Resultado de busqueda</h2>
+    <p>Datos encontrados: <span id="resultCount">0</span></p>
+    <ul id="resultsList"></ul>
+  </div>
+  <div id="searchHistory">
+    <h2>Historial de busqueda</h2>
+    <ul id="historyList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
